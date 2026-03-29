@@ -1,4 +1,4 @@
-# 🚇 Travel Reimbursement Automation with Monzo Data
+# Travel Reimbursement Automation with Monzo Data
 
 This project automates the process of filtering and calculating eligible **Transport for London (TfL)** travel expenses from **Monzo** bank transaction exports. It helps streamline the tracking of commuting costs for workdays, making it easier to organize or submit for reimbursement if applicable.
 
@@ -16,7 +16,7 @@ Manually identifying and summing up daily transport expenses for specific workda
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python**
 - **pandas**
@@ -25,7 +25,7 @@ Manually identifying and summing up daily transport expenses for specific workda
 
 ---
 
-## 📁 How It Works
+## How It Works
 
 1. **Load Monzo Export**  
    Reads a CSV export and filters rows with `"Transport for London"` as the merchant.
@@ -44,7 +44,7 @@ Manually identifying and summing up daily transport expenses for specific workda
 
 ---
 
-## ✅ Benefits
+## Benefits
 
 - Eliminates repetitive manual logging
 - Works directly with Monzo exports
@@ -53,7 +53,7 @@ Manually identifying and summing up daily transport expenses for specific workda
 
 ---
 
-## ⚙️ Customization
+## Customization
 
 Update these in the script as needed:
 - `days_worked` dictionary – to reflect your actual work calendar
@@ -62,7 +62,7 @@ Update these in the script as needed:
 
 ---
 
-## 📎 Sample Output
+## Sample Output
 
 - `Final_Filtered_Transport_for_London.csv`  
   Includes:
@@ -70,7 +70,4 @@ Update these in the script as needed:
   - Total amount spent
   - Optional reimbursable amount
 
----
-
-## 📂 Suggested Folder Structure
 
